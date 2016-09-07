@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+ruby '2.1.0'
+
+gem "jekyll"
+gem "jekyll-paginate"
+gem "susy"
+gem "normalize-scss"
+gem "compass"
+gem "sass"
+gem "support-for"
+gem 'bundler'
+gem 'rack-jekyll'
