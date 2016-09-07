@@ -1,0 +1,32 @@
+title: Anderson Silva
+description: Full Stack Developer
+
+url: http://yusuke.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+ - title: Hello World
+   url: /helloworld
+
+social:
+   github: sqacecadet
+   twitter: sqacecadet
+   facebook: andersonsilva
+   email: sqacecadet@gmail.com
+
+google_analytics: "UA-58263416-1"
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
